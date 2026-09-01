@@ -1,0 +1,16 @@
+class sumodd{
+	public static void main(String []args){
+
+		int n1=1;
+		int n2=10;
+                int sum=1;
+		for(int i=n1;i<=n2;i++){
+			if(i%2==1){
+				sum=sum*i;
+                    System.out.println(sum);
+			}
+		    
+		}
+	}
+}
+
